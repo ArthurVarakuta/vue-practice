@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Vue Js</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="ifElse">
+    <h3>If else</h3>
+                                               <!---FIRST--->
+    <div class="if-else-first">
+        <input placeholder="Введите номер квартиры" type="text" v-model="flatNumber">
+        <button v-on:click="Porch">Решить</button>
+    </div>
+                                                  <!---SECOND--->
+    <div class="if-else-second">
+        <input placeholder="Введите логин" type="text" v-model="LoginIfElse2">
+        <input placeholder="Введите пароль" type="text" v-model="PasswordIfElse2">
+        <button v-on:click="authorize">Решить</button>
+    </div>
+                                                      <!---THIRD--->
+    <div class="if-else-third">
+        <input placeholder="Введите возраст" type="text" v-model="AgeIfElse3">
+        <button v-on:click="ageCheck">Решить</button>
+    </div>
+                                                              <!---FOURTH--->
+    <div class="if-else-fourth">
+        <input placeholder="Введите стаж" type="text" v-model="standingIfElse">
+        <button v-on:click="standingCheck">Решить</button>
+    </div>
+</div>
+                                                <!--//js tasks-->
+
+
+<div id="cycle">
+    <h3>Cycles</h3>
+                     <!---FIRST--->
+    <button class="cycle-first">Решить первый цикл</button>
+                    <!---SECOND--->
+    <button class="cycle-second">Решить второй цикл</button>
+                         <!---THIRD--->
+    <button class="cycle-third">Решить третий цикл</button>
+                          <!---FOURTH--->
+    <button class="cycle-fourth">Решить четвёртый цикл</button>
+                         <!---FIFTH--->
+    <button class="cycle-fifth">Решить первый цикл</button>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
