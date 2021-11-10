@@ -1,5 +1,5 @@
 body {
-    background-color: lightskyblue;
+    background-color: dodgerblue;
     display: flex;
     flex-direction: column;
 }
@@ -22,4 +22,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 50px 100px;
+}
+.del-button{
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10%;
 }
